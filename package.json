@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Rahat-ch/RahatCodesBlog#readme",
   "dependencies": {
+    "components": "^0.1.0",
     "gatsby": "^2.0.79",
     "gatsby-plugin-catch-links": "^2.0.9",
     "gatsby-source-filesystem": "^2.0.12",
