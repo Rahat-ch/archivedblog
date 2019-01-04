@@ -11,20 +11,23 @@ exports.createPages = (({graphql, actions}) => {
     resolve(
       graphql(
         `
-          query {
-            allMarkdownRemark {
-              edges {
-                node {
-                  frontmatter {
-                    path
-                    title
-                    tags
-                  }
-                }
-              }
-            }
-          }
-        `
+        query {
+         allMarkdownRemark(
+           sort: { order: ASC, fields: [frontmatter___date] }
+         ) {
+           edges {
+             node {
+               frontmatter {
+                 path
+                 title
+                 excerpt
+                 tags
+               }
+             }
+           }
+         }
+       }
+     `
       ).then(result => {
         if (result.errors) {
           return Promise.reject(result.errors)
@@ -71,17 +74,21 @@ exports.createPages = (({graphql, actions}) => {
         });
 
         //create posts
-        posts.forEach(({node}) => {
-          const path = node.frontmatter.path
+        posts.forEach(({ node }, index) => {
+    const path = node.frontmatter.path
+    const prev = index === 0 ? null : posts[index - 1].node;
+    const next = index === posts.length - 1 ? null : posts[index + 1].node;
 
-          createPage({
-            path,
-            component: postTemplate,
-            context: {
-              pathSlug: path
-            }
-          })
-        })
+    createPage({
+      path,
+      component: postTemplate,
+      context: {
+        pathSlug: path,
+        prev,
+        next,
+      }
+    });
+  });
       })
     )
   })
