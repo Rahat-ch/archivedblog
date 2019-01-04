@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "repository": {
     "type": "git",
@@ -49,5 +50,8 @@
     "typography": "^0.16.18",
     "typography-theme-de-young": "^0.16.18",
     "typography-theme-fairy-gates": "^0.16.18"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
