@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rahat-ch/RahatCodesBlog.git"
+    "url": "git+https://github.com/Rahat-ch/blog.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Rahat-ch/RahatCodesBlog/issues"
+    "url": "https://github.com/Rahat-ch/blog/issues"
   },
-  "homepage": "https://github.com/Rahat-ch/RahatCodesBlog#readme",
+  "homepage": "https://github.com/Rahat-ch/blog#readme",
   "dependencies": {
     "@emotion/core": "^10.0.5",
     "@emotion/styled": "^10.0.5",
