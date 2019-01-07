@@ -1,0 +1,47 @@
+[
+    {
+        "componentChunkName": "component---src-pages-index-js",
+        "jsonName": "index",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-pages-about-jsx",
+        "jsonName": "about-f34",
+        "path": "/about/"
+    },
+    {
+        "componentChunkName": "component---src-templates-post-jsx",
+        "jsonName": "helloworld-4f4",
+        "path": "/helloworld"
+    },
+    {
+        "componentChunkName": "component---src-pages-tags-jsx",
+        "jsonName": "tags-cd4",
+        "path": "/tags"
+    },
+    {
+        "componentChunkName": "component---src-pages-tags-jsx",
+        "jsonName": "tags-275",
+        "path": "/tags/"
+    },
+    {
+        "componentChunkName": "component---src-templates-tag-jsx",
+        "jsonName": "tags-bootcamp-d66",
+        "path": "/tags/bootcamp"
+    },
+    {
+        "componentChunkName": "component---src-templates-tag-jsx",
+        "jsonName": "tags-gatsbyjs-710",
+        "path": "/tags/gatsbyjs"
+    },
+    {
+        "componentChunkName": "component---src-templates-tag-jsx",
+        "jsonName": "tags-graphql-9d6",
+        "path": "/tags/graphql"
+    },
+    {
+        "componentChunkName": "component---src-templates-tag-jsx",
+        "jsonName": "tags-react-df8",
+        "path": "/tags/react"
+    }
+]

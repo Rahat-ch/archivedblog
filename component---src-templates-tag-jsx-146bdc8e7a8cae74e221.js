@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{152:function(t,n,a){"use strict";a.r(n);var e=a(7),o=(a(0),a(36));n.default=function(t){var n=t.pageContext,a=n.posts,u=n.tagName;return Object(e.a)("div",null,Object(e.a)("div",null,"Posts about ",""+u),Object(e.a)("div",null,Object(e.a)("ul",null,a.map(function(t,n){return Object(e.a)("li",{key:n},Object(e.a)(o.Link,{to:t.frontmatter.path},t.frontmatter.title))}))))}}}]);
+//# sourceMappingURL=component---src-templates-tag-jsx-146bdc8e7a8cae74e221.js.map

@@ -1,0 +1,2063 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "18d38952512783c619996798d47f0ad9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e5ac9f03cc70c2107809778c933533be",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1f14fa4773088b3e9f446374254bb866",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1d9b1ca33352c8713b102f84c2878e24",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "04a70fd8f8f7f0c938dee06037ef374e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "48d5ebc6692fbdcb4eb5622d2efb7e56",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "ca2c6d45-3cbb-5520-81b0-744c9701d15c": {
+      "resolve": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby-plugin-catch-links",
+      "id": "ca2c6d45-3cbb-5520-81b0-744c9701d15c",
+      "name": "gatsby-plugin-catch-links",
+      "version": "2.0.9",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby-plugin-catch-links",
+      "packageJson": {
+        "name": "gatsby-plugin-catch-links",
+        "description": "Intercepts local links from markdown and other non-react pages and does a client-side pushState to avoid the browser having to refresh the page.",
+        "version": "2.0.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "escape-string-regexp",
+            "version": "^1.0.5"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-beta"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "62e264e21c491c8f61a0930b1bd5eafe",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.17",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreInit"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.17",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "58eeae964ec14845b350c553620852cc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "5a11e103-53f8-5840-bc89-09bae00ae396": {
+      "resolve": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby-plugin-typography",
+      "id": "5a11e103-53f8-5840-bc89-09bae00ae396",
+      "name": "gatsby-plugin-typography",
+      "version": "2.2.4",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "config/typography.js"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "2.2.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1 || ^1.0.0-alpha.0"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0 || ^1.0.0-alpha.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6ccc111c8e61aa2f96cdd448625dfac6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.10",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.10",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "57c0895bdb7d0bd0437f767364800674",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d8b6906b-ab82-55fc-a97f-e75542b2a418": {
+      "resolve": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby-transformer-remark",
+      "id": "d8b6906b-ab82-55fc-a97f-e75542b2a418",
+      "name": "gatsby-transformer-remark",
+      "version": "2.1.18",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby-remark-images",
+            "id": "953fe8fe-5d5b-586b-934c-eefd611dab26",
+            "name": "gatsby-remark-images",
+            "version": "3.0.1",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 750,
+              "quality": 90,
+              "linkImagesToOriginal": true
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [
+              "onRouteUpdate"
+            ],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby-remark-images"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.1.18",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "399f24ec24f1e5b18c726741bd3f055f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "953fe8fe-5d5b-586b-934c-eefd611dab26": {
+      "resolve": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby-remark-images",
+      "id": "953fe8fe-5d5b-586b-934c-eefd611dab26",
+      "name": "gatsby-remark-images",
+      "version": "3.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 750,
+        "quality": 90,
+        "linkImagesToOriginal": true
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "3.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit-parents",
+            "version": "^2.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.5"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7e786afe20a83a114abece18a8ec16e6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2": {
+      "resolve": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby-transformer-remark",
+      "id": "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2",
+      "name": "gatsby-transformer-remark",
+      "version": "2.1.18",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.1.18",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "891a124c17150f5ce22d22408ad6e2b0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "8653a6ea-076b-5064-983e-02c7026ab794": {
+      "resolve": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby-source-filesystem",
+      "id": "8653a6ea-076b-5064-983e-02c7026ab794",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.12",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "posts",
+        "path": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/content/posts"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.12",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4e4aa5a40f7984a6e76f30eb12854c48",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "b1674f69-3dee-5cf8-8a38-a16667a563b8": {
+      "resolve": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby-plugin-emotion",
+      "id": "b1674f69-3dee-5cf8-8a38-a16667a563b8",
+      "name": "gatsby-plugin-emotion",
+      "version": "4.0.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby-plugin-emotion",
+      "packageJson": {
+        "name": "gatsby-plugin-emotion",
+        "description": "Gatsby plugin to add support for Emotion",
+        "version": "4.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "emotion",
+          "css-in-js"
+        ],
+        "author": {
+          "name": "Tegan Churchill",
+          "email": "churchill.tegan@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@emotion/babel-preset-css-prop",
+            "version": "10.0.5"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "@emotion/core",
+            "version": "^10.0.5"
+          },
+          {
+            "name": "gatsby",
+            "version": ">2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e62b3d1660d2de71bc786222f32aa4b0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "e8c916fd4ee4cb8f7dbc8a170e303f9b",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog",
+      "packageJson": {
+        "name": "rahatcodesblog",
+        "description": "",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "ISC",
+        "dependencies": [
+          {
+            "name": "@emotion/core",
+            "version": "^10.0.5"
+          },
+          {
+            "name": "@emotion/styled",
+            "version": "^10.0.5"
+          },
+          {
+            "name": "@fortawesome/fontawesome-svg-core",
+            "version": "^1.2.12"
+          },
+          {
+            "name": "@fortawesome/free-solid-svg-icons",
+            "version": "^5.6.3"
+          },
+          {
+            "name": "@fortawesome/react-fontawesome",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "components",
+            "version": "^0.1.0"
+          },
+          {
+            "name": "emotion",
+            "version": "^10.0.5"
+          },
+          {
+            "name": "emotion-theming",
+            "version": "^10.0.5"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.79"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.25"
+          },
+          {
+            "name": "gatsby-plugin-catch-links",
+            "version": "^2.0.9"
+          },
+          {
+            "name": "gatsby-plugin-emotion",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.17"
+          },
+          {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^3.0.4"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^2.2.4"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^3.0.1"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.12"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.1.18"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.10"
+          },
+          {
+            "name": "i",
+            "version": "^0.3.6"
+          },
+          {
+            "name": "npm",
+            "version": "^6.5.0"
+          },
+          {
+            "name": "react",
+            "version": "^16.7.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.7.0"
+          },
+          {
+            "name": "react-emotion",
+            "version": "^10.0.0"
+          },
+          {
+            "name": "react-image-lightbox",
+            "version": "^5.1.0"
+          },
+          {
+            "name": "react-share",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "react-sticky-footer",
+            "version": "0.1.0-rc3"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "styled-components",
+            "version": "^4.1.3"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typography-theme-de-young",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typography-theme-fairy-gates",
+            "version": "^0.16.18"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "gh-pages",
+            "version": "^2.0.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2f5d958538cb71960367734be18ca35a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "91e2e842-8610-57d0-83ea-9a9784a817c9": {
+      "resolve": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby-plugin-page-creator",
+      "id": "91e2e842-8610-57d0-83ea-9a9784a817c9",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "45678138f53ec9989ddd6621e943679c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Rahat-Codes Blog",
+        "description": "The official Blog of Rahat Chowdhury."
+      },
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-01-07T02:40:24.748Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7df22f53dc157190d31f6a9469429e5b",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "01513486-9bf4-518a-a11e-a66175008cf9": {
+      "id": "01513486-9bf4-518a-a11e-a66175008cf9",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7d420ab6e0447665e6974b9855fa9444",
+        "type": "Directory",
+        "description": "Directory \"content/posts\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/content/posts",
+      "relativePath": "",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-01-04T05:18:11.729Z",
+      "accessTime": "2019-01-07T02:40:31.125Z",
+      "changeTime": "2019-01-04T05:18:11.729Z",
+      "birthTime": "2019-01-01T06:25:27.000Z",
+      "root": "/",
+      "dir": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/content",
+      "base": "posts",
+      "ext": "",
+      "name": "posts",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 6966920,
+      "blocks": 0,
+      "atimeMs": 1546828831124.9768,
+      "mtimeMs": 1546579091728.6096,
+      "ctimeMs": 1546579091728.6096,
+      "birthtimeMs": 1546323927000,
+      "atime": "2019-01-07T02:40:31.125Z",
+      "mtime": "2019-01-04T05:18:11.729Z",
+      "ctime": "2019-01-04T05:18:11.729Z",
+      "birthtime": "2019-01-01T06:25:27.000Z"
+    },
+    "db08e905-4336-56f6-8bd6-8d917ed8c3ea": {
+      "id": "db08e905-4336-56f6-8bd6-8d917ed8c3ea",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7113505f9ce9b49a2a43523d26ea0641",
+        "type": "Directory",
+        "description": "Directory \"content/posts/2019-01-01\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/content/posts/2019-01-01",
+      "relativePath": "2019-01-01",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2019-01-02T02:09:08.739Z",
+      "accessTime": "2019-01-07T02:40:31.126Z",
+      "changeTime": "2019-01-02T02:09:08.739Z",
+      "birthTime": "2019-01-01T06:27:36.000Z",
+      "root": "/",
+      "dir": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/content/posts",
+      "base": "2019-01-01",
+      "ext": "",
+      "name": "2019-01-01",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 6967039,
+      "blocks": 0,
+      "atimeMs": 1546828831126.4058,
+      "mtimeMs": 1546394948738.5427,
+      "ctimeMs": 1546394948738.5427,
+      "birthtimeMs": 1546324056000,
+      "atime": "2019-01-07T02:40:31.126Z",
+      "mtime": "2019-01-02T02:09:08.739Z",
+      "ctime": "2019-01-02T02:09:08.739Z",
+      "birthtime": "2019-01-01T06:27:36.000Z"
+    },
+    "960b693f-1f68-576e-82ed-bf2bac2cba16": {
+      "id": "960b693f-1f68-576e-82ed-bf2bac2cba16",
+      "children": [
+        "edc42dcc-7e5a-51b6-a4d0-cdebffaa5551"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "007c9143fe680c04a7ae166a986f0549",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/posts/2019-01-01/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/content/posts/2019-01-01/index.md",
+      "relativePath": "2019-01-01/index.md",
+      "extension": "md",
+      "size": 1841,
+      "prettySize": "1.84 kB",
+      "modifiedTime": "2019-01-04T05:51:58.684Z",
+      "accessTime": "2019-01-05T02:05:05.943Z",
+      "changeTime": "2019-01-04T05:51:58.684Z",
+      "birthTime": "2019-01-01T06:28:35.736Z",
+      "root": "/",
+      "dir": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/content/posts/2019-01-01",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2019-01-01",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 6967089,
+      "blocks": 8,
+      "atimeMs": 1546653905942.6523,
+      "mtimeMs": 1546581118684.3145,
+      "ctimeMs": 1546581118684.3145,
+      "birthtimeMs": 1546324115736.0103,
+      "atime": "2019-01-05T02:05:05.943Z",
+      "mtime": "2019-01-04T05:51:58.684Z",
+      "ctime": "2019-01-04T05:51:58.684Z",
+      "birthtime": "2019-01-01T06:28:35.736Z"
+    },
+    "edc42dcc-7e5a-51b6-a4d0-cdebffaa5551": {
+      "id": "edc42dcc-7e5a-51b6-a4d0-cdebffaa5551",
+      "children": [],
+      "parent": "960b693f-1f68-576e-82ed-bf2bac2cba16",
+      "internal": {
+        "content": "Hello world, my name is Rahat and I'm an aspiring Full Stack Web Developer. Is aspiring the right word? I hope it is because I'm not going to change it now, I like the way it sounds. I created this blog from scratch using React, GraphQL, and Gatsby. Prior to me working on this blog I had zero experience with GraphQL and Gatsby and had only made one React component. So it was definitely a learning experience with a lot of \"oh fuck\" moments. I'll document my process in another blog post if anyone is interested. I will say; however, that I'm looking forward to making some improvements on it and adding new features as I learn more about these and other technologies!\n\nI started taking coding seriously when I started a Full Stack Web Development Bootcamp at Columbia University. I've taken college courses and taught myself skills prior to it but, this is what really ignited the fire in me to take my skills to the next level. With that said, I'm still honing my craft. I want to blog about some of the harder things I learn in the hopes that I solidify my knowledge and help out others starting out just like me.\n\nI aim to blog once or twice a week. My next blog will be entirely on higher order functions in JavaScript. If you want to dive right into it with me please follow me using any of my links below. I would appreciate it if you could share this post as well. The sharing options are a bit closer down below!\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "2dc36d20621a906a70fce10d5a65e9ad",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Hello World!",
+        "path": "/helloworld",
+        "cover": "./trees.jpg",
+        "date": "2019-01-01",
+        "draft": false,
+        "tags": [
+          "gatsbyjs",
+          "react",
+          "graphql",
+          "bootcamp"
+        ],
+        "excerpt": "Hello world, my name is Rahat and I'm an aspiring Full Stack Web Developer. Is aspiring the right word? I hope it is because I'm not going to change it now, I like the way it sounds. I created this blog from scratch using React, GraphQL, and Gatsby...",
+        "_PARENT": "960b693f-1f68-576e-82ed-bf2bac2cba16"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "Hello world, my name is Rahat and I'm an aspiring Full Stack Web Developer. Is aspiring the right word? I hope it is because I'm not going to change it now, I like the way it sounds. I created this blog from scratch using React, GraphQL, and Gatsby. Prior to me working on this blog I had zero experience with GraphQL and Gatsby and had only made one React component. So it was definitely a learning experience with a lot of \"oh fuck\" moments. I'll document my process in another blog post if anyone is interested. I will say; however, that I'm looking forward to making some improvements on it and adding new features as I learn more about these and other technologies!\n\nI started taking coding seriously when I started a Full Stack Web Development Bootcamp at Columbia University. I've taken college courses and taught myself skills prior to it but, this is what really ignited the fire in me to take my skills to the next level. With that said, I'm still honing my craft. I want to blog about some of the harder things I learn in the hopes that I solidify my knowledge and help out others starting out just like me.\n\nI aim to blog once or twice a week. My next blog will be entirely on higher order functions in JavaScript. If you want to dive right into it with me please follow me using any of my links below. I would appreciate it if you could share this post as well. The sharing options are a bit closer down below!\n",
+      "fileAbsolutePath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/content/posts/2019-01-01/index.md"
+    },
+    "c10659cf-c0ca-5e2e-be4e-26299d6a27b1": {
+      "id": "c10659cf-c0ca-5e2e-be4e-26299d6a27b1",
+      "children": [
+        "4012441e-5f8d-5e0d-baf0-d219f1c2feb0"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "497a2eab24e65fdf2f315b0342a78eca",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"content/posts/2019-01-01/trees.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/content/posts/2019-01-01/trees.jpg",
+      "relativePath": "2019-01-01/trees.jpg",
+      "extension": "jpg",
+      "size": 6571132,
+      "prettySize": "6.57 MB",
+      "modifiedTime": "2019-01-02T02:07:26.040Z",
+      "accessTime": "2019-01-05T02:05:05.943Z",
+      "changeTime": "2019-01-02T02:09:08.739Z",
+      "birthTime": "2019-01-02T02:07:24.856Z",
+      "root": "/",
+      "dir": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/content/posts/2019-01-01",
+      "base": "trees.jpg",
+      "ext": ".jpg",
+      "name": "trees",
+      "relativeDirectory": "2019-01-01",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 6992512,
+      "blocks": 14752,
+      "atimeMs": 1546653905942.657,
+      "mtimeMs": 1546394846040.0405,
+      "ctimeMs": 1546394948738.5425,
+      "birthtimeMs": 1546394844856.3074,
+      "atime": "2019-01-05T02:05:05.943Z",
+      "mtime": "2019-01-02T02:07:26.040Z",
+      "ctime": "2019-01-02T02:09:08.739Z",
+      "birthtime": "2019-01-02T02:07:24.856Z"
+    },
+    "4012441e-5f8d-5e0d-baf0-d219f1c2feb0": {
+      "id": "4012441e-5f8d-5e0d-baf0-d219f1c2feb0",
+      "children": [],
+      "parent": "c10659cf-c0ca-5e2e-be4e-26299d6a27b1",
+      "internal": {
+        "contentDigest": "497a2eab24e65fdf2f315b0342a78eca",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /tags": {
+      "jsonName": "tags-cd4",
+      "internalComponentName": "ComponentTags",
+      "path": "/tags",
+      "component": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/pages/tags.jsx",
+      "componentChunkName": "component---src-pages-tags-jsx",
+      "context": {
+        "tags": [
+          "bootcamp",
+          "gatsbyjs",
+          "graphql",
+          "react"
+        ]
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/pages/tags.jsx",
+      "id": "SitePage /tags",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fc97aca7c84dcebed6459ca3cb8a622e",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/bootcamp": {
+      "jsonName": "tags-bootcamp-d66",
+      "internalComponentName": "ComponentTagsBootcamp",
+      "path": "/tags/bootcamp",
+      "component": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/templates/tag.jsx",
+      "componentChunkName": "component---src-templates-tag-jsx",
+      "context": {
+        "posts": [
+          {
+            "frontmatter": {
+              "path": "/helloworld",
+              "title": "Hello World!",
+              "excerpt": "Hello world, my name is Rahat and I'm an aspiring Full Stack Web Developer. Is aspiring the right word? I hope it is because I'm not going to change it now, I like the way it sounds. I created this blog from scratch using React, GraphQL, and Gatsby...",
+              "tags": [
+                "gatsbyjs",
+                "react",
+                "graphql",
+                "bootcamp"
+              ]
+            }
+          }
+        ],
+        "tagName": "bootcamp"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/templates/tag.jsx",
+      "id": "SitePage /tags/bootcamp",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c21d2982fe0e6b8e19853a7e2012cde9",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/gatsbyjs": {
+      "jsonName": "tags-gatsbyjs-710",
+      "internalComponentName": "ComponentTagsGatsbyjs",
+      "path": "/tags/gatsbyjs",
+      "component": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/templates/tag.jsx",
+      "componentChunkName": "component---src-templates-tag-jsx",
+      "context": {
+        "posts": [
+          {
+            "frontmatter": {
+              "path": "/helloworld",
+              "title": "Hello World!",
+              "excerpt": "Hello world, my name is Rahat and I'm an aspiring Full Stack Web Developer. Is aspiring the right word? I hope it is because I'm not going to change it now, I like the way it sounds. I created this blog from scratch using React, GraphQL, and Gatsby...",
+              "tags": [
+                "gatsbyjs",
+                "react",
+                "graphql",
+                "bootcamp"
+              ]
+            }
+          }
+        ],
+        "tagName": "gatsbyjs"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/templates/tag.jsx",
+      "id": "SitePage /tags/gatsbyjs",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ff3ed9bbedf66ca1f6147b0b094253f2",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/graphql": {
+      "jsonName": "tags-graphql-9d6",
+      "internalComponentName": "ComponentTagsGraphql",
+      "path": "/tags/graphql",
+      "component": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/templates/tag.jsx",
+      "componentChunkName": "component---src-templates-tag-jsx",
+      "context": {
+        "posts": [
+          {
+            "frontmatter": {
+              "path": "/helloworld",
+              "title": "Hello World!",
+              "excerpt": "Hello world, my name is Rahat and I'm an aspiring Full Stack Web Developer. Is aspiring the right word? I hope it is because I'm not going to change it now, I like the way it sounds. I created this blog from scratch using React, GraphQL, and Gatsby...",
+              "tags": [
+                "gatsbyjs",
+                "react",
+                "graphql",
+                "bootcamp"
+              ]
+            }
+          }
+        ],
+        "tagName": "graphql"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/templates/tag.jsx",
+      "id": "SitePage /tags/graphql",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9b4eb0a4a33f87199f7086a1e74b5181",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/react": {
+      "jsonName": "tags-react-df8",
+      "internalComponentName": "ComponentTagsReact",
+      "path": "/tags/react",
+      "component": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/templates/tag.jsx",
+      "componentChunkName": "component---src-templates-tag-jsx",
+      "context": {
+        "posts": [
+          {
+            "frontmatter": {
+              "path": "/helloworld",
+              "title": "Hello World!",
+              "excerpt": "Hello world, my name is Rahat and I'm an aspiring Full Stack Web Developer. Is aspiring the right word? I hope it is because I'm not going to change it now, I like the way it sounds. I created this blog from scratch using React, GraphQL, and Gatsby...",
+              "tags": [
+                "gatsbyjs",
+                "react",
+                "graphql",
+                "bootcamp"
+              ]
+            }
+          }
+        ],
+        "tagName": "react"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/templates/tag.jsx",
+      "id": "SitePage /tags/react",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "efb07e7e5a20f2a1c67e188449054211",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /helloworld": {
+      "jsonName": "helloworld-4f4",
+      "internalComponentName": "ComponentHelloworld",
+      "path": "/helloworld",
+      "component": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/templates/post.jsx",
+      "componentChunkName": "component---src-templates-post-jsx",
+      "context": {
+        "pathSlug": "/helloworld",
+        "prev": null,
+        "next": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/templates/post.jsx",
+      "id": "SitePage /helloworld",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "577338db68e67d3b188627f371076cfc",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/pages/about.jsx",
+      "componentChunkName": "component---src-pages-about-jsx",
+      "context": {},
+      "pluginCreator___NODE": "91e2e842-8610-57d0-83ea-9a9784a817c9",
+      "pluginCreatorId": "91e2e842-8610-57d0-83ea-9a9784a817c9",
+      "componentPath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/pages/about.jsx",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "18988f1c8d6d4b852502c99cacccf5b5",
+        "description": "91e2e842-8610-57d0-83ea-9a9784a817c9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "91e2e842-8610-57d0-83ea-9a9784a817c9",
+      "pluginCreatorId": "91e2e842-8610-57d0-83ea-9a9784a817c9",
+      "componentPath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e3260496fb88ff78233a77d6bff9fa47",
+        "description": "91e2e842-8610-57d0-83ea-9a9784a817c9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/": {
+      "jsonName": "tags-275",
+      "internalComponentName": "ComponentTags",
+      "path": "/tags/",
+      "component": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/pages/tags.jsx",
+      "componentChunkName": "component---src-pages-tags-jsx",
+      "context": {},
+      "pluginCreator___NODE": "91e2e842-8610-57d0-83ea-9a9784a817c9",
+      "pluginCreatorId": "91e2e842-8610-57d0-83ea-9a9784a817c9",
+      "componentPath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/pages/tags.jsx",
+      "id": "SitePage /tags/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "01aa3af30ba872a012807554d9e7e2b1",
+        "description": "91e2e842-8610-57d0-83ea-9a9784a817c9",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "f3855156e2084e52b8a1335c6429b7c0"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "/about/",
+        "sq--src-layouts-index-jsx"
+      ],
+      "edc42dcc-7e5a-51b6-a4d0-cdebffaa5551": [
+        "/helloworld"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        null,
+        "/",
+        null
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "sq--src-layouts-index-jsx": 3892401927,
+    "index": "852/path---index-6a9-Y8ielXgMWS8QdMqaXtgvx6DEu5M",
+    "about-f34": "523/path---about-f-34-4c2-QAtaz1rzguKcvTMPc6R920n4I",
+    "tags-cd4": "934/path---tags-cd-4-e51-05kpGxuAwj8NvfqvqdqLBOnGhg",
+    "rahatcodesintro-2-2ef": "89/path---rahatcodesintro-2-2-ef-31a-jJzmgtDBcgcwce6sLqzWOMPOzA",
+    "rahatcodesintro-01e": "470/path---rahatcodesintro-01-e-70c-Waai6nDjL6nHq1CyoS3ncsIVMj8",
+    "tags-blog-a7f": "121/path---tags-blog-a-7-f-4b4-8GT5ovfUU8JiPyF51V844ItEHSs",
+    "tags-code-newbie-e0b": "897/path---tags-code-newbie-e-0-b-94a-soHmsS0JmW9qBRtsAS0tyYAvqzk",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "tags-gatsbyjs-710": "476/path---tags-gatsbyjs-710-32e-EEVZCAJsVnO91brxRqVqJQi8",
+    "tags-275": "418/path---tags-275-fc0-NZuapzHg3X9TaN1iIixfv1W23E",
+    "rahatcodesintro-3-049": "819/path---rahatcodesintro-3-049-804-teRSvv9Zxs5CnumDUYGmIkVjn6g",
+    "tags-bootcamp-d66": "534/path---tags-bootcamp-d-66-806-iGwdDX5fjaaHDitqbxzy2m4IZo",
+    "helloworld-4f4": "855/path---helloworld-4-f-4-5aa-d9KExtcuSDztvTbphuA1YAlubKI",
+    "tags-graphql-bootcamp-637": "653/path---tags-graphql-bootcamp-637-e73-vPh181a337yOUlS4qeAPX7efWk",
+    "tags-react-df8": "524/path---tags-react-df-8-562-QyzyPo8ojXVRmQvrN49fDfmXIU",
+    "tags-graphql-9d6": "131/path---tags-graphql-9-d-6-f97-qcj6GW0chf5ZDbBvY9TcqYxOE78"
+  },
+  "components": {
+    "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/pages/tags.jsx": {
+      "query": "",
+      "componentPath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/pages/tags.jsx"
+    },
+    "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/templates/tag.jsx": {
+      "query": "",
+      "componentPath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/templates/tag.jsx"
+    },
+    "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/templates/post.jsx": {
+      "query": "query usersRchowdhuryDesktopDevStuffGRahatCodesBlogSrcTemplatesPostJsx1899743808(\n  $pathSlug: String!\n) {\n  markdownRemark(frontmatter: {path: {eq: $pathSlug}}) {\n    html\n    frontmatter {\n      date\n      title\n      tags\n    }\n  }\n}\n",
+      "componentPath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/templates/post.jsx"
+    },
+    "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/pages/about.jsx": {
+      "query": "query AboutQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "componentPath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/pages/about.jsx"
+    },
+    "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/pages/index.js": {
+      "query": "query usersRchowdhuryDesktopDevStuffGRahatCodesBlogSrcPagesIndexJs1680526045 {\n  allMarkdownRemark(filter: {frontmatter: {draft: {eq: false}}}, sort: {order: DESC, fields: [frontmatter___date]}) {\n    edges {\n      node {\n        id\n        frontmatter {\n          title\n          excerpt\n          path\n          tags\n          date(formatString: \"MM.DD.YYYY\")\n        }\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/pages/index.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-layouts-index-jsx": {
+      "name": "usersRchowdhuryDesktopDevStuffGRahatCodesBlogSrcLayoutsIndexJsx3892401927",
+      "componentPath": "/Users/rchowdhury/Desktop/Dev_Stuff/G/RahatCodesBlog/src/layouts/index.jsx",
+      "id": "sq--src-layouts-index-jsx",
+      "jsonName": "sq--src-layouts-index-jsx",
+      "query": "query usersRchowdhuryDesktopDevStuffGRahatCodesBlogSrcLayoutsIndexJsx3892401927 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 3892401927
+    }
+  }
+}
