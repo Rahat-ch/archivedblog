@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{151:function(t,n,a){"use strict";a.r(n);var e=a(7),c=(a(0),a(183));n.default=function(t){var n=t.pageContext;console.log(n);var a=n.tags;return Object(e.a)("div",null,Object(e.a)(c.a,{list:a}))}},183:function(t,n,a){"use strict";var e=a(7),c=(a(0),a(36));n.a=function(t){var n=t.list;return Object(e.a)("div",null,n.map(function(t){return Object(e.a)(c.Link,{key:t,to:"/tags/"+t},t)}))}}}]);
+//# sourceMappingURL=component---src-pages-tags-jsx-01486c3b1abd81feb0ed.js.map
