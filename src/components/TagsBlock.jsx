@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 const TagsBlock = ({ list }) => {
+if (typeof tag === `undefined`) {
+  return null
+} else {
   return (
     <div>
       {list.map(tag =>
@@ -11,6 +14,11 @@ const TagsBlock = ({ list }) => {
       )}
     </div>
   )
+}
+
+
+
+
 }
 
 export default TagsBlock

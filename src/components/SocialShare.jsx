@@ -25,15 +25,25 @@ const ShareWrapper = styled.div`
 
 `;
 
+
+
+// componentDidMount(){
+//   this.setState({Canonical: window.location.href})
+// }
+
  const SocialShare = ({ list }) => {
-   return (
-     <ShareWrapper>
-      <TwitterShareButton url={window.location.href} children={<TwitterIcon size={32} round={true} />} />
-      <LinkedinShareButton url={window.location.href} children={<LinkedinIcon size={32} round={true} />} />
-      <RedditShareButton url={window.location.href} children={<RedditIcon size={32} round={true} />} />
-      <EmailShareButton url={window.location.href} children={<EmailIcon size={32} round={true} />} />
-    </ShareWrapper>
-   )
+   if (typeof window === `undefined`) {
+     return null
+   } else {
+     return (
+       <ShareWrapper>
+        <TwitterShareButton url={window.location.href} children={<TwitterIcon size={32} round={true} />} />
+        <LinkedinShareButton url={window.location.href} children={<LinkedinIcon size={32} round={true} />} />
+        <RedditShareButton url={window.location.href} children={<RedditIcon size={32} round={true} />} />
+        <EmailShareButton url={window.location.href} children={<EmailIcon size={32} round={true} />} />
+      </ShareWrapper>
+     )
+   }
  }
 
  export default SocialShare
